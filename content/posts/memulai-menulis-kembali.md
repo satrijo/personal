@@ -8,14 +8,14 @@ description: Setelah sekian lama saya tidak menulis maka saat ini saya memulai
 
 K﻿alau dulu saya menggunakan platform wordpress untuk melakukan kegiatan blogging maupun hal lainnya. Saat ini saya memutuskan kembali untuk melakukan kegiatan menulis di blog, tetapi tidak menggunakan wordpress.
 
-## K﻿enapa?
+### K﻿enapa?
 
 A﻿dakalanya saya malas untuk melakukan konfigurasi yang ribet bin rumit dalam mempersiapkan server, kalau alasan demikian kenapa gak menggunakan hosting? ya benar, tetapi ya saya orangnya lebih suka menggunakan VPS dibandingkan hosting, karena fleksibel saja dan bebas.
 
 T﻿etapi kali ini lain. Saya menggunakan server gratisan dan tentunya hanya membutuhkan domain saja.\
 s﻿ebut saja [netlify](https://www.netlify.com/). Menggunakan layanan gratis bukan berarti kurang powerfull. Jangan salah, kita mendapatkan bandwith sebesar 100gb/month yang tentu saja sangat cukup bagi personal blog, yang mana entah siapa yang akan mengakses blog ini.
 
-## T﻿inggalkan Wordpress, Pilih Hugo
+### T﻿inggalkan Wordpress, Pilih Hugo
 
 S﻿aat menulis ini saya saat ini menggunakan Hugo sebagai platform dalam menuangkan ide - ide yang ada dalam pikiran saat ini. Faktor kunci tidak ribetnya ini yang menjadi pilihan utama kenapa saya menggunakan hugo. Hanya cukup menginstall kita bisa langsung menulis. 
 
