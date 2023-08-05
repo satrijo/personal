@@ -1,4 +1,144 @@
-baseURL: 'https://satrio.dev'
-languageCode: 'en-us'
-title: "satrio"
+baseURL: https://satrio.dev/
 theme: "PaperMod"
+languageCode: id-ID
+title: Satriyo U. Wicaksono
+publishDir: "docs"
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: G-VF1WERHTLN
+
+minify:
+  disableXML: true
+  minifyOutput: true
+  
+disqusShortname: satriodev
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Satriyo U. Wicaksono
+  description: "Personal site of Satriyo"
+  keywords: [Blog, Portfolio, Satriyo, JavaScript, Python, Programming, Laravel, PHP, Career]
+  author: Satriyo
+  # author: ["Me", "You"] # multiple authors
+  images: ["https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
+    favicon16x16: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
+    favicon32x32: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
+    apple_touch_icon: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
+    safari_pinned_tab: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
+
+  label:
+    text: "satrio.dev"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: satrio.dev
+    subtitle: "Personal site of Satriyo"
+    imageUrl: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my profile
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  # homeInfoParams:
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
+  #   Justify: center
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-VF1WERHTLN"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/satriodeveloper/satriodeveloper.github.io/edit/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: LinkedIn
+      name: LinkedIn
+      url: https://www.linkedin.com/in/satriyounggulwicaksono/
+      weight: 30
+    - identifier: GitHub
+      name: GitHub
+      url: https://github.com/satriodeveloper
+      weight: 40
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
