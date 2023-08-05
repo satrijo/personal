@@ -1,3 +1,4 @@
 baseURL = 'https://satrio.dev'
 languageCode = 'en-us'
-title = 'Satriyo Unggul Wicaksono'
+title = "satrio"
+theme= "PaperMod"
