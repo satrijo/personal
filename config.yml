@@ -1,1 +1,4 @@
-theme : "PaperMod"
+baseURL: 'https://satrio.dev'
+languageCode: 'en-us'
+title: "satrio"
+theme: "PaperMod"
