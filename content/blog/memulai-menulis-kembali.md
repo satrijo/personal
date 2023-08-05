@@ -6,7 +6,7 @@ description: Setelah sekian lama saya tidak menulis maka saat ini saya memulai
 ---
 ![](/img/kelly-sikkema-l5hg3ch_pgc-unsplash.jpg)
 
-K﻿alau dulu saya menggunakan platform wordpress untuk melakukan kegiatan blogging maupun hal lainnya. Saat ini saya memutuskan kembali untuk melakukan kegiatan menulis di blog, tetapi tidak menggunakan wordpress. 
+K﻿alau dulu saya menggunakan platform wordpress untuk melakukan kegiatan blogging maupun hal lainnya. Saat ini saya memutuskan kembali untuk melakukan kegiatan menulis di blog, tetapi tidak menggunakan wordpress.
 
 ## K﻿enapa?
 
