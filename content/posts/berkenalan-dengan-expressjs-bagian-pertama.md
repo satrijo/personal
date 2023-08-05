@@ -24,7 +24,17 @@ E﻿xpress JS sendiri merupakan kerangka kerja javascript untuk backend yang cuk
 
 S﻿atu hal yang cukup membuat bingung bagi saya yang terbiasa dengan Laravel adalah ***unopinionated***nya. Bagaimana tidak, kecenderungan kita bebas melakukan dan menggunakan Express JS sesuka hati dengan pattern yang kita yakini ini membuat kebingungan tersendiri.
 
-T﻿api overall, saya masih mendalami terus seperti apa cara menggunakan express js sesuai kenyamanan ketika mengembangkan aplikasi dengan rutin melihat rujukan dan tutorial di Internet.
+### B﻿apak Framework Node JS
+
+Express JS merupakan sebuah kerangka kerja aplikasi web untuk Node.js yang bersifat minimalis namun fleksibel. Kerangka kerja ini menawarkan sekumpulan fitur yang tangguh untuk pengembangan aplikasi web dan mobile.
+
+D﻿ari beragam fitur, Express sendiri sangat cocok jika digunakan untuk membuat layanan API, kesan saya sangat memudahkan ketika hanya sekadar membangun API yang minimalis.
+
+Express JS diakui sebagai pionir dalam kerangka kerja Node.js, sehingga sering dijuluki sebagai "bapak"nya. Dengan memperkenalkan pendekatan yang minimalis namun kuat, Express JS telah mengubah cara pengembangan aplikasi web dengan Node.js. 
+
+Kontribusinya yang signifikan dalam menyediakan alat-alat yang memudahkan dalam penanganan permintaan HTTP dan penggunaan modul middleware telah membuatnya menjadi fondasi yang tak ternilai bagi ekosistem pengembangan web dengan Node.js.
+
+Overall, saya masih mendalami terus seperti apa cara menggunakan express js sesuai kenyamanan ketika mengembangkan aplikasi dengan rutin melihat rujukan dan tutorial di Internet.
 
 K﻿ayanya tulisan ini akan saya akhiri untuk saat ini. 
 
