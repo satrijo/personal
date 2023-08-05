@@ -99,7 +99,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/satriodeveloper/satriodeveloper.github.io/edit/master/content"
+    URL: "https://github.com/satrijo/personal"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -117,20 +117,16 @@ menu:
   main:
     - identifier: posts
       name: Posts
-      url: /posts/
+      url: /blog/
       weight: 10
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 20
     - identifier: LinkedIn
       name: LinkedIn
       url: https://www.linkedin.com/in/satriyounggulwicaksono/
-      weight: 30
+      weight: 20
     - identifier: GitHub
       name: GitHub
-      url: https://github.com/satriodeveloper
-      weight: 40
+      url: https://github.com/satrijo
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
