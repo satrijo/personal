@@ -6,6 +6,8 @@ description: Mendapatkan kesempatan untuk merasakan atmosfer negara di benua
 ---
 ![Menunggu Bus di Stasiun Basso Cambo](/img/whatsapp-image-2023-08-29-at-18.27.34.jpg "Menunggu Bus di Stasiun Basso Cambo")
 
-S﻿ebagai seorang software developer, saya mendapatkan mandat dari pimpinan untuk melaksanakan pengembangan sebuah sistem yang sudah ada serta melakukan integrasi terhadap sistem baru dimana tempat saya bekerja pada bidang lain sedang melaksanakan migrasi besar - besaran dalam mengakomodir informasi lalulintas data dari dalam maupun dari luar.
+S﻿ebagai seorang software developer, Bekerja pada lingkungan atau negara yang mengadopsi teknologi besar - besaran dalam pemenuhan kegiatan sehari - hari merupakan impian bagi semua yang terlibat dalam pengembangan teknologi tersebut.
 
-H﻿al ini menjadi tantangan bagi saya terutama ketika kita sebagai software developer tentu saja legacy project adalah hal yang tidak mudah. Layaknya kita membaca roman yang belum tentu sekali duduk kita dapat menyelesaikan, perlu mempelajari berminggu - minggu untuk tau alur dan pemikiran dari programmer sebelumnya.
+S﻿eperti yang saya rasakan dimana teknologi yang ada pada negara maju seperti Perancis ini sangat menarik untuk kita adopsi, seperti misalnya jadwal Bus, kita cukup melihat pada aplikasi maka kita tahu berapa lama lagi bus akan tiba pada halte dimana kita berdiri.
+
+M﻿endapatkan pengalaman ini sungguh sangat berharga, entah kapan lagi saya bisa berkunjung ke negara di belahan dunia lainnya.
