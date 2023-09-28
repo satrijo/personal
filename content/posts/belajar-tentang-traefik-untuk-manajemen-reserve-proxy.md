@@ -1,5 +1,5 @@
 ---
-title: Belajar Tentang Traefik Untuk Manajemen Reserve Proxy
+title: Belajar Tentang Traefik Untuk Manajemen Reverse Proxy
 date: 2023-09-28T08:35:05.062Z
 description: Kalau biasanya kita terbiasa dengan nginx atau apache, kali ini
   saya akan mencoba menggunakan tools baru yaitu Traefik. Saat ini implementasi
