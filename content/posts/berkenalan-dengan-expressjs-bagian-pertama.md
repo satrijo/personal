@@ -36,6 +36,6 @@ Kontribusinya yang signifikan dalam menyediakan alat-alat yang memudahkan dalam 
 
 Overall, saya masih mendalami terus seperti apa cara menggunakan express js sesuai kenyamanan ketika mengembangkan aplikasi dengan rutin melihat rujukan dan tutorial di Internet.
 
-K﻿ayanya tulisan ini akan saya akhiri untuk saat ini. 
+K﻿ayanya tulisan ini akan saya akhiri untuk saat ini. Berikutnya akan kembali menulis.
 
 T﻿erimakasih sudah membaca!
