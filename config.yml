@@ -110,14 +110,18 @@ menu:
       name: Posts
       url: /posts/
       weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
     - identifier: LinkedIn
       name: LinkedIn
       url: https://www.linkedin.com/in/satriyounggulwicaksono/
-      weight: 30
+      weight: 40
     - identifier: GitHub
       name: GitHub
       url: https://github.com/satrijo
-      weight: 40
+      weight: 50
 
 pygmentsUseClasses: true
 markup:
