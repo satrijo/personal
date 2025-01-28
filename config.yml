@@ -1,8 +1,9 @@
 baseURL: https://satrio.dev/
-theme: "PaperModX"
+theme: "PaperMod"
 languageCode: id-ID
 title: Satriyo U. Wicaksono
-paginate: 5
+pagination:
+  pagerSize: 10
 
 enableRobotsTXT: true
 buildDrafts: true
