@@ -5,9 +5,9 @@ title: Satriyo U. Wicaksono
 paginate: 5
 
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
+buildDrafts: true
+buildFuture: true
+buildExpired: true
 
 googleAnalytics: G-VF1WERHTLN
 
