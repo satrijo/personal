@@ -3,6 +3,7 @@ title: Memulai Menulis Kembali
 date: 2023-08-05T04:39:05.249Z
 description: Setelah sekian lama saya tidak menulis maka saat ini saya memulai
   kembali aktivitas menulis
+tags: Personal
 ---
 ![](/img/kelly-sikkema-l5hg3ch_pgc-unsplash.jpg)
 
