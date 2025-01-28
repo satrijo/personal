@@ -10,8 +10,6 @@ buildDrafts: true
 buildFuture: true
 buildExpired: true
 
-googleAnalytics: G-VF1WERHTLN
-
 minify:
   disableXML: true
   minifyOutput: true
@@ -19,15 +17,14 @@ minify:
 disqusShortname: satriodev
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   title: Satriyo U. Wicaksono
   description: "Personal site of Satriyo"
   keywords: [Blog, Portfolio, Satriyo, JavaScript, Python, Programming, Laravel, PHP, Career]
   author: Satriyo
-  # author: ["Me", "You"] # multiple authors
   images: ["https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -46,24 +43,20 @@ params:
   showtoc: false
   tocopen: false
 
-
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
-    favicon16x16: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
-    favicon32x32: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
-    apple_touch_icon: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
-    safari_pinned_tab: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
+    favicon: "/img/favicon.png"
+    favicon16x16: "/img/favicon-16x16.png"
+    favicon32x32: "/img/favicon-32x32.png"
+    apple_touch_icon: "/img/apple-touch-icon.png"
+    safari_pinned_tab: "/img/safari-pinned-tab.svg"
 
   label:
     text: "satrio.dev"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: false
     title: satrio.dev
     subtitle: "Personal site of Satriyo"
     imageUrl: "https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"
@@ -75,12 +68,6 @@ params:
         url: posts
       - name: Tags
         url: tags
-
-  # home-info mode
-  # homeInfoParams:
-  #   Title: "Hi there \U0001F44B"
-  #   Content: Welcome to my blog
-  #   Justify: center
 
   socialIcons:
     - name: twitter
@@ -95,17 +82,15 @@ params:
       SiteVerificationTag: "G-VF1WERHTLN"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
 
   editPost:
     URL: "https://github.com/satrijo/personal/tree/master/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    Text: "Suggest Changes"
+    appendFilePath: true
 
-  # for search
-  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -114,6 +99,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: Home
@@ -132,13 +118,8 @@ menu:
       name: GitHub
       url: https://github.com/satrijo
       weight: 40
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
