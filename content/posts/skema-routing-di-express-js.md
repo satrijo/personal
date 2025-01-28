@@ -1,6 +1,8 @@
 ---
 title: Skema Routing di Express JS
 date: 2023-08-07T06:30:56.843Z
+tags:
+  - Javascript
 description: Membangun website yang patut diperhatikan adalah sistem routing.
   Hal ini agar memudahkan kita ketika sudah dalam tahap pengembangan yang
   kompleks. Dalam sistem routing Express JS sudah disediakan bagaimana kita
