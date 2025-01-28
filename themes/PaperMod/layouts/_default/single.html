@@ -43,14 +43,6 @@
   {{- end }}
 
   <footer class="post-footer">
-    {{ if .Params.tags }}
-      <ul>
-        {{ range .Params.tags }}
-          <li>{{ . }}</li>
-        {{ end }}
-      </ul>
-    {{ end }}
-
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}

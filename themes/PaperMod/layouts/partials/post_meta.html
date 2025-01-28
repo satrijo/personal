@@ -12,6 +12,15 @@
 {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
 {{- end }}
 
+{{- if .Params.tags -}}
+         <span class="tags-list">{{ i18n "tags" | default "Tags" }}:</span>
+         {{- range $index, $tag := .Params.tags -}}
+            {{ if $index }}, {{ end }}
+            <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}" class="tags-list-item">{{ $tag }}</a>
+         {{- end }}
+         <span class="tags-list-item">|</span>
+{{- end -}}
+
 {{- if not (.Param "hideAuthor") -}}
 {{- with (partial "author.html" .) }}
 {{- $scratch.Add "meta" (slice .) }}
