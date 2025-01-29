@@ -1,6 +1,8 @@
 ---
 title: Belajar Tentang Traefik Untuk Manajemen Reverse Proxy
 date: 2023-09-28T08:41:58.245Z
+tags:
+  - Golang
 description: Kalau biasanya kita terbiasa dengan nginx atau apache, kali ini
   saya akan mencoba menggunakan tools baru yaitu Traefik. Saat ini implementasi
   pada production belum pernah saya coba tetapi kelihatannya menarik
