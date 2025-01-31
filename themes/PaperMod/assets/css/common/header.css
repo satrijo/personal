@@ -8,9 +8,9 @@
     line-height: var(--header-height);
 }
 
-.nav a {
+/* .nav a {
     display: block;
-}
+} */
 
 .logo,
 #menu {
