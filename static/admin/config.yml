@@ -23,6 +23,7 @@ collections:
     folder: 'content/tags'
     create: true
     slug: '{{slug}}'
+    icon: '🏷️'
     editor:
       preview: false
     fields:
@@ -34,9 +35,84 @@ collections:
     folder: 'content/pages'
     create: true
     slug: '{{slug}}'
+    icon: '📄'
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'] }
+
+  - name: 'python'
+    label: 'Python'
+    folder: 'content/python'
+    create: true
+    slug: '{{slug}}'
+    icon: '🐍'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  
+  - name: 'javascript'
+    label: 'JavaScript'
+    folder: 'content/javascript'
+    create: true
+    slug: '{{slug}}'
+    icon: '🌐'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  
+  - name: 'react'
+    label: 'React'
+    folder: 'content/react'
+    create: true
+    slug: '{{slug}}'
+    icon: '⚛️'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  
+  - name: 'rust'
+    label: 'Rust'
+    folder: 'content/rust'
+    create: true
+    slug: '{{slug}}'
+    icon: '🦀'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'projects'
+    label: 'Projects'
+    folder: 'content/projects'
+    create: true
+    slug: '{{slug}}'
+    icon: '🚀'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
