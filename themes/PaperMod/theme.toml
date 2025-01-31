@@ -37,6 +37,7 @@ features = [
   "scroll-to-top",
   "search"
 ]
+rust = true
 min_version = "0.125.7"
 
 [author]
