@@ -9,8 +9,6 @@ description: Kalau biasanya kita terbiasa dengan nginx atau apache, kali ini
 ---
 ![Traefik](/img/traefik-architecture.webp "Traefik Concepts")
 
-
-
 Dulu mengembangkan aplikasi hanya cukup satu project yang dimana didalamnya sapu jagat apa saja dikerjakan atau sebut saja monolith, maka sekarang kita akan mencoba beralih ke microservices. Perubahan arsitektur ini membutuhkan pendekatan baru dalam manajemen lalu lintas jaringan, salah satunya adalah penggunaan reverse proxy yang efisien. Di sinilah Traefik hadir sebagai alternatif menarik dibandingkan dengan solusi tradisional seperti Nginx atau Apache.
 
 ### Monolith vs Microservices
@@ -67,7 +65,6 @@ Mari kita lihat langkah-langkah dasar untuk menginstal dan mengkonfigurasi Traef
          storage: acme.json
          httpChallenge:
            entryPoint: web
-
    ```
 3. **Konfigurasi Docker Compose:** Buat file `docker-compose.yml` dengan isi berikut:
 
@@ -108,10 +105,9 @@ Mari kita lihat langkah-langkah dasar untuk menginstal dan mengkonfigurasi Traef
          - "traefik.http.routers.webapp-secure.tls=true"
          - "traefik.http.routers.webapp-secure.tls.certresolver=le"
        restart: always
-
    ```
 4. **Persiapkan File ACME:** Buat file `acme.json` dan berikan permission yang tepat:\
-   `touch acme.json `\
+   `touch acme.json`\
    `chmod 600 acme.json`
 5. **Jalankan Docker Compose:** Dari direktori yang berisi `docker-compose.yml`, jalankan perintah:\
    `docker-compose up -d`
@@ -143,7 +139,6 @@ Contoh penambahan layanan baru:
       - "traefik.http.routers.service2.tls=true"
       - "traefik.http.routers.service2.tls.certresolver=le"
     restart: always
-
 ```
 
 Dengan konfigurasi di atas, Traefik akan secara otomatis mengarahkan permintaan ke `service1.example.com` dan `service2.example.com` ke layanan yang sesuai, lengkap dengan sertifikat SSL dari Let's Encrypt.
