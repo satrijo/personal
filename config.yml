@@ -1,7 +1,7 @@
 baseURL: https://satrio.dev/
 theme: "PaperMod"
 languageCode: id-ID
-title: Satriyo U. Wicaksono
+title: Satriyo Unggul Wicaksono
 pagination:
   pagerSize: 10
 
@@ -18,8 +18,8 @@ disqusShortname: satriodev-1
 
 params:
   env: production
-  title: Satriyo U. Wicaksono
-  description: "Personal site of Satriyo"
+  title: Satriyo Unggul Wicaksono
+  description: "Personal site of Satriyo Unggul Wicaksono, Sharing about programming, career, and life."
   keywords: [Blog, Portfolio, Satriyo, JavaScript, Python, Programming, Laravel, PHP, Career]
   author: Satriyo
   images: ["https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"]
