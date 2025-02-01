@@ -4,6 +4,16 @@
     font-weight: 500;
 }
 
+.terms-tags .term {
+    display: inline-block;
+    margin: 2px;
+    font-weight: 500;
+}
+
+.terms-tags.tags {
+    margin-top: 10px;
+}
+
 .terms-tags a {
     display: block;
     padding: 3px 10px;

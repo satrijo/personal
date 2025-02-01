@@ -1,0 +1,23 @@
+<h2 class="sidebar-title-tags">Tags</h2>
+<ul class="terms-tags tags">
+  {{- range $name, $taxonomy := .Site.Taxonomies.tags }}
+  <li class="term">
+    <a href="{{- $taxonomy.Page.Permalink }}" class="tag">
+      {{- $name }}
+    <sup><strong><sup>{{- len $taxonomy.Pages }}</sup></strong></sup>
+    </a>
+  </li>
+  {{- end }}
+</ul>
+
+{{/*  get from Rust content  */}}
+<a href="/rust">
+    <h2 class="sidebar-title">Tutorial Rust</h2>
+</a>
+<ul class="rust-content">
+  {{- range first 15 (where (sort .Site.RegularPages "Date" "desc") "Section" "rust") }}
+    <li>
+      <a href="{{ .RelPermalink }}">- {{ .Title }}</a>
+    </li>
+  {{- end }}
+</ul>

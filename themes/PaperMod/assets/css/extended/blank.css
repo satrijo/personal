@@ -12,3 +12,27 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .tags-list-item {
   margin-right: 0.25rem;
 }
+
+.sidebar-title-tags {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  /* underlined */
+  text-decoration: underline;
+}
+
+.sidebar-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  /* underlined */
+  text-decoration: underline;
+}
+
+.rust-content li {
+  margin-bottom: 0.5rem;
+  /* no bullet list */
+  list-style-type: none;
+  font-size: 0.8rem;
+}

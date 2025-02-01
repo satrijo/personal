@@ -4,7 +4,10 @@
         {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
         {{- else }}
-        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+        <span>&copy; 2023 - {{ now.Year }} 
+            <!-- <a href="{{ "" | absLangURL }}">{{ site.Title }}</a> -->
+            Made with <span class="heart">🤘🏼</span> by <a href="https://linkedin.com/in/satriyounggulwicaksono">Satriyo</a>
+        </span>
         {{- end }}
         {{- print " · "}}
     {{- end }}
@@ -14,11 +17,11 @@
         {{- print " · "}}
     {{- end }}
 
-    <span>
+    <!-- <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+    </span> -->
 </footer>
 {{- end }}
 
