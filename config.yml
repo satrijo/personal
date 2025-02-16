@@ -3,7 +3,7 @@ theme: "PaperMod"
 languageCode: id-ID
 title: Satriyo Unggul Wicaksono
 pagination:
-  pagerSize: 10
+  pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: true
@@ -24,7 +24,7 @@ params:
   author: Satriyo
   images: ["https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto
+  defaultTheme: "light"
   disableThemeToggle: false
 
   ShowReadingTime: true
