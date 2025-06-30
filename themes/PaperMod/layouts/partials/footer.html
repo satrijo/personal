@@ -1,34 +1,43 @@
 {{- if not (.Param "hideFooter") }}
-<footer class="footer">
-    {{- if not site.Params.footer.hideCopyright }}
-        {{- if site.Copyright }}
-        <span>{{ site.Copyright | markdownify }}</span>
-        {{- else }}
-        <span>&copy; 2023 - {{ now.Year }} 
-            <!-- <a href="{{ "" | absLangURL }}">{{ site.Title }}</a> -->
-            Made with <span class="heart">🤘🏼</span> by <a href="https://linkedin.com/in/satriyounggulwicaksono">Satriyo</a>
-        </span>
-        {{- end }}
-        {{- print " · "}}
-    {{- end }}
+<footer class="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div class="flex items-center space-x-4 text-sm text-gray-600 dark:text-gray-400">
+                {{- if not site.Params.footer.hideCopyright }}
+                    {{- if site.Copyright }}
+                    <span>{{ site.Copyright | markdownify }}</span>
+                    {{- else }}
+                    <span>&copy; 2023 - {{ now.Year }} 
+                        Made with <span class="text-red-500">🤘🏼</span> by 
+                        <a href="https://linkedin.com/in/satriyounggulwicaksono" class="text-primary-600 dark:text-primary-400 hover:underline">Satriyo</a>
+                    </span>
+                    {{- end }}
+                {{- end }}
 
-    {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
-        {{- print " · "}}
-    {{- end }}
+                {{- with site.Params.footer.text }}
+                    <span class="hidden sm:inline">·</span>
+                    <span>{{ . | markdownify }}</span>
+                {{- end }}
+            </div>
 
-    <!-- <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span> -->
+            <div class="flex items-center space-x-6">
+                <span class="text-sm text-gray-500 dark:text-gray-400">
+                    Powered by
+                    <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank" class="text-primary-600 dark:text-primary-400 hover:underline">Hugo</a> &
+                    <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank" class="text-primary-600 dark:text-primary-400 hover:underline">PaperMod</a>
+                </span>
+            </div>
+        </div>
+    </div>
 </footer>
 {{- end }}
 
 {{- if (not site.Params.disableScrollToTop) }}
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" 
+   class="fixed bottom-8 right-8 p-3 bg-primary-600 dark:bg-primary-500 text-white rounded-full shadow-lg hover:bg-primary-700 dark:hover:bg-primary-600 transition-all duration-300 opacity-0 invisible hover:scale-110 z-50" 
+   id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+        <path d="M18 15l-6-6-6 6"/>
     </svg>
 </a>
 {{- end }}
@@ -62,7 +71,6 @@
             }
         });
     });
-
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}
@@ -70,29 +78,13 @@
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
         if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+            mybutton.classList.remove('opacity-0', 'invisible');
+            mybutton.classList.add('opacity-100', 'visible');
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            mybutton.classList.add('opacity-0', 'invisible');
+            mybutton.classList.remove('opacity-100', 'visible');
         }
     };
-
-</script>
-{{- end }}
-
-{{- if (not site.Params.disableThemeToggle) }}
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
 </script>
 {{- end }}
 
@@ -102,7 +94,7 @@
         const container = codeblock.parentNode.parentNode;
 
         const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
+        copybutton.classList.add('copy-code', 'absolute', 'top-2', 'right-2', 'px-3', 'py-1', 'text-xs', 'bg-gray-800', 'dark:bg-gray-200', 'text-white', 'dark:text-gray-800', 'rounded', 'opacity-0', 'hover:opacity-100', 'transition-opacity');
         copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
 
         function copyingDone() {
@@ -132,14 +124,17 @@
         });
 
         if (container.classList.contains("highlight")) {
+            container.style.position = 'relative';
             container.appendChild(copybutton);
         } else if (container.parentNode.firstChild == container) {
             // td containing LineNos
         } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
             // table containing LineNos and code
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.style.position = 'relative';
             codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
         } else {
             // code blocks not having highlight as parent class
+            codeblock.parentNode.style.position = 'relative';
             codeblock.parentNode.appendChild(copybutton);
         }
     });

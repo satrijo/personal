@@ -2,7 +2,7 @@
 {{- if (and .Params.cover.image (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
 {{- $loading := cond $.IsSingle "eager" "lazy" }}
-<figure class="entry-cover">
+<figure class="mb-6">
     {{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
     {{- $addLink := (and site.Params.cover.linkFullImages $.IsSingle) }}
     {{- $pageBundleCover     := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
@@ -10,7 +10,7 @@
     {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
     {{- if $cover -}}{{/* i.e it is present in page bundle */}}
         {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank"
-            rel="noopener noreferrer">{{ end -}}
+            rel="noopener noreferrer" class="block">{{ end -}}
         {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
         {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
         {{- if hugo.IsExtended -}}
@@ -24,19 +24,22 @@
                         {{ end }}
                     {{- end -}}{{$cover.Permalink }} {{printf "%dw" ($cover.Width)}}" 
             sizes="(min-width: 768px) 720px, 100vw" src="{{ $cover.Permalink }}" alt="{{ $alt }}" 
-            width="{{ $cover.Width }}" height="{{ $cover.Height }}">
+            width="{{ $cover.Width }}" height="{{ $cover.Height }}"
+            class="w-full h-auto rounded-lg shadow-lg">
         {{- else }}{{/* Unprocessable image or responsive images disabled */}}
-        <img loading="{{$loading}}" src="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" alt="{{ $alt }}">
+        <img loading="{{$loading}}" src="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" alt="{{ $alt }}"
+             class="w-full h-auto rounded-lg shadow-lg">
         {{- end }}
     {{- else }}{{/* For absolute urls and external links, no img processing here */}}
         {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
-            rel="noopener noreferrer">{{ end -}}
-            <img loading="{{$loading}}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+            rel="noopener noreferrer" class="block">{{ end -}}
+            <img loading="{{$loading}}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}"
+                 class="w-full h-auto rounded-lg shadow-lg">
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
     {{/*  Display Caption  */}}
     {{- if $.IsSingle }}
-        {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
+        {{ with .Params.cover.caption }}<figcaption class="text-center text-sm text-gray-600 dark:text-gray-400 mt-2">{{ . | markdownify }}</figcaption>{{- end }}
     {{- end }}
 </figure>
 {{- end }}{{/* End image */}}
