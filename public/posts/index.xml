@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Satriyo Unggul Wicaksono</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Satriyo Unggul Wicaksono</description>
+    <image>
+      <title>Satriyo Unggul Wicaksono</title>
+      <url>https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no</url>
+      <link>https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Thu, 01 May 2025 14:56:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Meja Kerja di Tahun 2025</title>
+      <link>http://localhost:1313/posts/setup-meja-kerja-di-tahun-2025/</link>
+      <pubDate>Thu, 01 May 2025 14:56:10 +0000</pubDate>
+      <guid>http://localhost:1313/posts/setup-meja-kerja-di-tahun-2025/</guid>
+      <description>Meja kerja merupakan tempat yang bisa dibilang lebih dari 50% penting bagi pekerja kantoran maupun pekerjaan lain yang membutuhkan tempat untuk bekerja. Bagi sebagian orang mungkin menganggapnya sepele mengenai meja kerja, tetapi </description>
+    </item>
+    <item>
+      <title>Membiasakan Menulis - Mengejar Asa Tanpa Putus Asa.</title>
+      <link>http://localhost:1313/posts/membiasakan-menulis-mengejar-asa-tanpa-putus-asa/</link>
+      <pubDate>Sat, 01 Feb 2025 13:45:28 +0000</pubDate>
+      <guid>http://localhost:1313/posts/membiasakan-menulis-mengejar-asa-tanpa-putus-asa/</guid>
+      <description>Refleksi 2024 dan bertahun - tahun kebelakang, Saya merasa banyak sekali waktu terbuang sia - sia. Banyak hal yang saya belum pelajari, banyak hal yang belum saya dokumentasikan.</description>
+    </item>
+    <item>
+      <title>Tulisan Pertama Pada Tahun 2025 - Belajar Rust atau Python?</title>
+      <link>http://localhost:1313/posts/tulisan-pertama-pada-tahun-2025-belajar-rust-atau-python/</link>
+      <pubDate>Wed, 29 Jan 2025 01:28:14 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tulisan-pertama-pada-tahun-2025-belajar-rust-atau-python/</guid>
+      <description>Bulan Januari hampir berakhir, tetapi kebimbangan menentukan target 2025 masih besar. Di tengah pesatnya perkembangan teknologi, muncul pertanyaan: apakah lebih baik belajar Rust sebagai investasi masa depan atau tetap fokus pada Python yang populer untuk pengembangan AI dan ML?</description>
+    </item>
+    <item>
+      <title>Belajar Tentang Traefik Untuk Manajemen Reverse Proxy</title>
+      <link>http://localhost:1313/posts/belajar-tentang-traefik-untuk-manajemen-reverse-proxy/</link>
+      <pubDate>Thu, 28 Sep 2023 08:41:58 +0000</pubDate>
+      <guid>http://localhost:1313/posts/belajar-tentang-traefik-untuk-manajemen-reverse-proxy/</guid>
+      <description>Kalau biasanya kita terbiasa dengan nginx atau apache, kali ini saya akan mencoba menggunakan tools baru yaitu Traefik. Saat ini implementasi pada production belum pernah saya coba tetapi kelihatannya menarik</description>
+    </item>
+    <item>
+      <title>La France Negeri Manusia Bebas - Bekerja di Perancis</title>
+      <link>http://localhost:1313/posts/la-france-negeri-manusia-bebas-bekerja-di-perancis/</link>
+      <pubDate>Tue, 29 Aug 2023 12:25:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/la-france-negeri-manusia-bebas-bekerja-di-perancis/</guid>
+      <description>Mendapatkan kesempatan untuk merasakan atmosfer negara di benua Eropa menjadikan pengalaman yang cukup berharga bagi saya selama berkarir.</description>
+    </item>
+    <item>
+      <title>Skema Routing di Express JS</title>
+      <link>http://localhost:1313/posts/skema-routing-di-express-js/</link>
+      <pubDate>Mon, 07 Aug 2023 06:30:56 +0000</pubDate>
+      <guid>http://localhost:1313/posts/skema-routing-di-express-js/</guid>
+      <description>Membangun website yang patut diperhatikan adalah sistem routing. Hal ini agar memudahkan kita ketika sudah dalam tahap pengembangan yang kompleks. Dalam sistem routing Express JS sudah disediakan bagaimana kita untuk kemudahan dalam pengembangan aplikasi.</description>
+    </item>
+    <item>
+      <title>Berkenalan dengan ExpressJS - Bagian Pertama</title>
+      <link>http://localhost:1313/posts/berkenalan-dengan-expressjs-bagian-pertama/</link>
+      <pubDate>Sat, 05 Aug 2023 08:33:51 +0000</pubDate>
+      <guid>http://localhost:1313/posts/berkenalan-dengan-expressjs-bagian-pertama/</guid>
+      <description>Kalau sebelumnya saya terbiasa menggunakan Laravel untuk pengembangan web application. Maka kali ini saya memilih Express JS sebagai pondasi untuk membuat aplikasi yang cukup simple dan cepat dalam pengerjaannya.</description>
+    </item>
+    <item>
+      <title>Memulai Menulis Kembali</title>
+      <link>http://localhost:1313/posts/memulai-menulis-kembali/</link>
+      <pubDate>Sat, 05 Aug 2023 04:39:05 +0000</pubDate>
+      <guid>http://localhost:1313/posts/memulai-menulis-kembali/</guid>
+      <description>Setelah sekian lama saya tidak menulis maka saat ini saya memulai kembali aktivitas menulis</description>
+    </item>
+  </channel>
+</rss>

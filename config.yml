@@ -16,6 +16,9 @@ minify:
   
 disqusShortname: satriodev-1
 
+# Suppress warnings
+ignoreLogs: ['warning-partial-superfluous-prefix']
+
 params:
   env: production
   title: Satriyo Unggul Wicaksono
@@ -44,11 +47,11 @@ params:
   tocopen: false
 
   assets:
-    favicon: "/img/favicon.png"
-    favicon16x16: "/img/favicon-16x16.png"
-    favicon32x32: "/img/favicon-32x32.png"
-    apple_touch_icon: "/img/apple-touch-icon.png"
-    safari_pinned_tab: "/img/safari-pinned-tab.svg"
+    favicon: ""
+    favicon16x16: ""
+    favicon32x32: ""
+    apple_touch_icon: ""
+    safari_pinned_tab: ""
 
   label:
     text: "satrio.dev"

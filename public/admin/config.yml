@@ -1,0 +1,118 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'content/posts'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'], multiple: true }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'tags'
+    label: 'Tags'
+    folder: 'content/tags'
+    create: true
+    slug: '{{slug}}'
+    icon: '🏷️'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+
+  - name: 'pages'
+    label: 'Pages'
+    folder: 'content/pages'
+    create: true
+    slug: '{{slug}}'
+    icon: '📄'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'], multiple: true }
+
+  - name: 'python'
+    label: 'Python'
+    folder: 'content/python'
+    create: true
+    slug: '{{slug}}'
+    icon: '🐍'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'], multiple: true }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  
+  - name: 'javascript'
+    label: 'JavaScript'
+    folder: 'content/javascript'
+    create: true
+    slug: '{{slug}}'
+    icon: '🌐'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'], multiple: true }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  
+  - name: 'react'
+    label: 'React'
+    folder: 'content/react'
+    create: true
+    slug: '{{slug}}'
+    icon: '⚛️'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'], multiple: true }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  
+  - name: 'rust'
+    label: 'Rust'
+    folder: 'content/rust'
+    create: true
+    slug: '{{slug}}'
+    icon: '🦀'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'], multiple: true }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'projects'
+    label: 'Projects'
+    folder: 'content/projects'
+    create: true
+    slug: '{{slug}}'
+    icon: '🚀'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'relation', collection: 'tags', value_field: 'name', search_fields: ['name'], multiple: true }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

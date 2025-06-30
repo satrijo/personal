@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rusts on Satriyo Unggul Wicaksono</title>
+    <link>http://localhost:1313/rust/</link>
+    <description>Recent content in Rusts on Satriyo Unggul Wicaksono</description>
+    <image>
+      <title>Satriyo Unggul Wicaksono</title>
+      <url>https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no</url>
+      <link>https://lh3.googleusercontent.com/a/ALm5wu03kN6nHsy37vGIsHNzkp7xXDURKnmNulwSjNuJ=s288-p-rw-no</link>
+    </image>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Sat, 01 Feb 2025 04:47:32 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Page Rust -2 </title>
+      <link>http://localhost:1313/rust/test-page-rust-2/</link>
+      <pubDate>Sat, 01 Feb 2025 04:47:32 +0000</pubDate>
+      <guid>http://localhost:1313/rust/test-page-rust-2/</guid>
+      <description>Test aja</description>
+    </item>
+    <item>
+      <title>Test Page Rust</title>
+      <link>http://localhost:1313/rust/test-page-rust/</link>
+      <pubDate>Fri, 31 Jan 2025 12:54:29 +0000</pubDate>
+      <guid>http://localhost:1313/rust/test-page-rust/</guid>
+      <description>Test aja</description>
+    </item>
+  </channel>
+</rss>
